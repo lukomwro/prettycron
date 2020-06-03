@@ -23,7 +23,7 @@
 
 if ((!moment || !later) && (typeof require !== 'undefined')) {
   var moment = require('moment');
-  var later = require('later/later.js');
+  require('later/later');
 }
 
 (function() {
