@@ -23,7 +23,7 @@
 
 if ((!moment || !later) && (typeof require !== 'undefined')) {
   var moment = require('moment');
-  require('later/later');
+  require('later/index-browserify');
 }
 
 (function() {
